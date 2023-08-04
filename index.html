@@ -6,16 +6,16 @@
     <title>Document</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:ital,wght@1,200&display=swap');        
-   
+
         * {
             margin: 0;
-            border: 0;
             padding: 0;
+            border: 0;
         }
         body {
             font-family: 'Open Sans', sans-serif;
             font-family: 'Raleway', sans-serif;
-            background-color: #d8dbdb;
+            background-color: #d8dada;
             font-size: 19px;
             max-width: 800px;
             margin: 0 auto;
@@ -26,21 +26,26 @@
         }
         header {
             width: 98%;
-            display: flex;
+            /* display: flex;
             align-items: center;
-            justify-content: space-between;
+            justify-content: space-between; */
         }
         #logo {
             max-width: 120px;
             margin: 15px 20px;
+            float: left;
         }
         #wrapper {
             background-color: #f0f6fb;
         }
         #social {
-            display: flex;
+            float: right;
+            /* display: flex; */
             margin: 5px;
             list-style: none;
+        }
+        #social > li {
+            display: inline;
         }
         #social > li > a > img {
             max-width: 35px;
